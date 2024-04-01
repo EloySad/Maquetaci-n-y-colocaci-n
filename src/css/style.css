@@ -14,12 +14,25 @@
 .static{
     background-color: burlywood;
 }
+.sticky{
+    background-color: coral;
+    position: sticky;
+    top: 0;
+}
 .relative{
     background-color: cadetblue;
+    position: relative;
+    left: 10%;
 }
 .absolute{
     background-color: chocolate;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .fixed{
     background-color: crimson;
+    position: fixed;
+    top: 0;
+    left: 50%;
 }
